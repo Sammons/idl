@@ -21,7 +21,7 @@
 'use strict';
 
 module.exports.fileFilter = function fileFilter(filepath) {
-    return /\.(thrift|json|proto|avsc)$/.test(filepath);
+    return /\.(thrift|json|proto|avsc|d\.ts)$/.test(filepath);
 };
 
 module.exports.idlDirectory = 'idl';
